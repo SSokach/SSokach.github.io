@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>实验4.1</title>
+<style>
+body{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight:inherit;
+    text-align:left ;
+}
+.box{
+    background-color: darkgray;
+    border: black solid 2px;
+    margin: 0 auto;
+    width: 650px;
+    padding-top: 10px;
+    text-align: left;
+}
+.box p{
+    margin-left: 10px;
+}
+.header{
+    background-color: red;
+    border: gold solid 2px;
+    margin: 10px;
+    padding: 10px 2px;
+}
+.header p{
+    color: gold;
+    margin: 10px;
+    margin-left: 10px;
+}
+
+#logo{
+    background-color:  gold;
+    border: black solid 2px;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    display: inline-block;
+    margin: 10px 20px;
+}
+#logo p{
+    color: black;
+    text-align: center;
+}
+#banner{
+    background-color: blue;
+    border: black solid 2px;
+    height: 50px;
+    line-height: 50px;
+    width: 300px;
+    margin-left: 55px;
+    display: inline-block;
+    color: #fff;
+}
+
+#menu{
+    background-color: rgba(19, 14, 14, 0.836);
+    border: black solid 2px;
+    line-height: 50px;
+    width: 586px;
+    height: 50px;
+    margin: 10px 20px;
+}
+#menu p{
+    color: #fff;
+    margin-left: 20px;
+}
+#main{
+    background-color: rgb(31, 126, 23);
+    border: gold 2px solid;
+    padding: 10px 2px;
+    margin: 10px;
+}
+#main p{
+
+    color: #fff;
+
+}
+#sidebar{
+    background-color: blue;
+    border: #fff 2px solid;
+    height: 210px;
+    line-height: 50px;
+    width:160px;
+    display: inline-block;
+    margin: 10px 20px;
+}
+#sidebar p{
+    color: #fff;
+}
+#content{
+    background-color:#95D7EE;
+    border: #fff 2px solid;
+    height: 210px;
+    line-height: 50px;
+    width: 300px;
+    display: inline-block;
+
+    margin-left: 100px;
+}
+#content p{
+    color: #fff;
+}
+#footer{
+    background-color: red;
+    border: gold 2px solid;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px 2px;
+}
+#footer{
+    color: #fff;
+}
+</style>
+</head>
+
+<body>
+	<div class="box">
+        <p>div->box 包含下面三种div（header,main,footer）,布局网页宽度和居中</p>
+        <div class="header">
+            <p>div->header 包含下面3个div 布局头部高度和主要背景</p>
+            <div id="logo"><p>div->id=logo</p></div>
+            <div id="banner"><p>div->id=banner</p></div>
+            <div id="menu"><p>div->id=menu</p></div>
+        </div>
+        <div id="main">
+            <p>div->id=main 包含下面2个div（sidebar，content）</p>
+            <div id="sidebar"><p>div->id=sidebar</p></div>
+            <div id="content"><p>div->id=content</p></div>
+        </div>
+        <div id="footer"><p>div->id=footer</p></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+.box {
+    width: 850px;
+    height: 700px;
+    background-color: gainsboro;
+    margin: 20px auto;
+    
+}
+.img {
+    width: 550px;
+    height: 700px;
+    background-color:antiquewhite;
+    overflow: hidden;
+    float: left;
+}
+.top {
+    width: 520px;
+    height: 480px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+}
+.top img {
+    width: 460px;
+    margin-left: 30px;
+}
+.money {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    font-size: 30px;
+    color: red;
+}
+.imgList {
+    width: 520px;
+    height:80px;
+    margin: 15px;
+	text-align: center;
+    background-color: white;
+	padding: 16px 0;
+}
+ul {
+    width: 500px;
+    height: 77px;
+    
+    margin: 5px auto;
+}
+.listImg li {
+    float: left;
+    margin-left: 5px;
+}
+h1 {
+    font-size: 30px;
+    margin-left: 38px;
+    margin-top: 10px;
+}
+.text {
+    width: 300px;
+    height: 700px;
+    background-color:antiquewhite;
+    float: right;
+    position: relative;
+}
+.shop {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.shopCode {
+    margin-top: 40px;
+    margin-left: 16px;
+    font-size: 25px;
+
+}
+.shop li {
+    margin-top: 10px;
+}
+.collage {
+    position: absolute;
+    top: 524px;
+    left: 32px;
+    background-color: rgba(94,159,39,1.00);
+    color: white;
+}
+.buy {
+    position: absolute;
+    top: 524px;
+    left: 104px;
+    background-color: black;
+    color: rgba(94,159,39,1.00);
+}
