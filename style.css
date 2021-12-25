@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background: black;
+}
+body,td,th {
+	color: white;
+	font-size: 18px;
+}
+a {
+	text-align: center;
+	color:white;
+	font-size:20px;}
+canvas {
+    position: absolute;
+    z-index: -1;
+}
+.TM {
+	background:rgba(255, 255, 255, 0.8) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/
+	filter:Alpha(opacity=80); background:#fff;/*实现IE背景透明*/
+}
